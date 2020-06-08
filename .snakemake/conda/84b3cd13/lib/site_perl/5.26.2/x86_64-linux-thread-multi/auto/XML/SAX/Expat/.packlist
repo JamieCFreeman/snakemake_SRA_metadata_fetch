@@ -1,0 +1,2 @@
+/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/XML/SAX/Expat.pm relocate_as=../../../../../XML/SAX/Expat.pm
+/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/XML::SAX::Expat.3 relocate_as=../../../../../../../../man/man3/XML::SAX::Expat.3

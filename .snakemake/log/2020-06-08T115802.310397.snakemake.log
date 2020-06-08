@@ -1,0 +1,1203 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	combine_sra_table
+	75	format_sra_table
+	75	get_sra_table
+	152
+
+[Mon Jun  8 11:58:09 2020]
+rule get_sra_table:
+    output: metadata/SRR3997521_sra_run_info.txt
+    jobid: 119
+    wildcards: project=SRR3997521
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:12 2020]
+Finished job 119.
+1 of 152 steps (0.66%) done
+
+[Mon Jun  8 11:58:12 2020]
+rule format_sra_table:
+    input: metadata/SRR3997521_sra_run_info.txt
+    output: metadata/SRR3997521_sra_run_metadata.txt
+    jobid: 44
+    wildcards: project=SRR3997521
+
+[Mon Jun  8 11:58:12 2020]
+Finished job 44.
+2 of 152 steps (1%) done
+
+[Mon Jun  8 11:58:12 2020]
+rule get_sra_table:
+    output: metadata/SRR3997518_sra_run_info.txt
+    jobid: 122
+    wildcards: project=SRR3997518
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:14 2020]
+Finished job 122.
+3 of 152 steps (2%) done
+
+[Mon Jun  8 11:58:14 2020]
+rule format_sra_table:
+    input: metadata/SRR3997518_sra_run_info.txt
+    output: metadata/SRR3997518_sra_run_metadata.txt
+    jobid: 47
+    wildcards: project=SRR3997518
+
+[Mon Jun  8 11:58:14 2020]
+Finished job 47.
+4 of 152 steps (3%) done
+
+[Mon Jun  8 11:58:14 2020]
+rule get_sra_table:
+    output: metadata/SRR5150040_sra_run_info.txt
+    jobid: 145
+    wildcards: project=SRR5150040
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:16 2020]
+Finished job 145.
+5 of 152 steps (3%) done
+
+[Mon Jun  8 11:58:16 2020]
+rule format_sra_table:
+    input: metadata/SRR5150040_sra_run_info.txt
+    output: metadata/SRR5150040_sra_run_metadata.txt
+    jobid: 70
+    wildcards: project=SRR5150040
+
+[Mon Jun  8 11:58:16 2020]
+Finished job 70.
+6 of 152 steps (4%) done
+
+[Mon Jun  8 11:58:16 2020]
+rule get_sra_table:
+    output: metadata/SRR3997523_sra_run_info.txt
+    jobid: 117
+    wildcards: project=SRR3997523
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:22 2020]
+Finished job 117.
+7 of 152 steps (5%) done
+
+[Mon Jun  8 11:58:22 2020]
+rule format_sra_table:
+    input: metadata/SRR3997523_sra_run_info.txt
+    output: metadata/SRR3997523_sra_run_metadata.txt
+    jobid: 42
+    wildcards: project=SRR3997523
+
+[Mon Jun  8 11:58:22 2020]
+Finished job 42.
+8 of 152 steps (5%) done
+
+[Mon Jun  8 11:58:22 2020]
+rule get_sra_table:
+    output: metadata/SRR5150030_sra_run_info.txt
+    jobid: 146
+    wildcards: project=SRR5150030
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:24 2020]
+Finished job 146.
+9 of 152 steps (6%) done
+
+[Mon Jun  8 11:58:24 2020]
+rule format_sra_table:
+    input: metadata/SRR5150030_sra_run_info.txt
+    output: metadata/SRR5150030_sra_run_metadata.txt
+    jobid: 71
+    wildcards: project=SRR5150030
+
+[Mon Jun  8 11:58:24 2020]
+Finished job 71.
+10 of 152 steps (7%) done
+
+[Mon Jun  8 11:58:24 2020]
+rule get_sra_table:
+    output: metadata/SRR1919302_sra_run_info.txt
+    jobid: 106
+    wildcards: project=SRR1919302
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:26 2020]
+Finished job 106.
+11 of 152 steps (7%) done
+
+[Mon Jun  8 11:58:26 2020]
+rule format_sra_table:
+    input: metadata/SRR1919302_sra_run_info.txt
+    output: metadata/SRR1919302_sra_run_metadata.txt
+    jobid: 31
+    wildcards: project=SRR1919302
+
+[Mon Jun  8 11:58:26 2020]
+Finished job 31.
+12 of 152 steps (8%) done
+
+[Mon Jun  8 11:58:26 2020]
+rule get_sra_table:
+    output: metadata/SRR1919292_sra_run_info.txt
+    jobid: 99
+    wildcards: project=SRR1919292
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:28 2020]
+Finished job 99.
+13 of 152 steps (9%) done
+
+[Mon Jun  8 11:58:28 2020]
+rule format_sra_table:
+    input: metadata/SRR1919292_sra_run_info.txt
+    output: metadata/SRR1919292_sra_run_metadata.txt
+    jobid: 24
+    wildcards: project=SRR1919292
+
+[Mon Jun  8 11:58:28 2020]
+Finished job 24.
+14 of 152 steps (9%) done
+
+[Mon Jun  8 11:58:28 2020]
+rule get_sra_table:
+    output: metadata/SRR4421124_sra_run_info.txt
+    jobid: 126
+    wildcards: project=SRR4421124
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:30 2020]
+Finished job 126.
+15 of 152 steps (10%) done
+
+[Mon Jun  8 11:58:30 2020]
+rule format_sra_table:
+    input: metadata/SRR4421124_sra_run_info.txt
+    output: metadata/SRR4421124_sra_run_metadata.txt
+    jobid: 51
+    wildcards: project=SRR4421124
+
+[Mon Jun  8 11:58:30 2020]
+Finished job 51.
+16 of 152 steps (11%) done
+
+[Mon Jun  8 11:58:30 2020]
+rule get_sra_table:
+    output: metadata/SRR5150035_sra_run_info.txt
+    jobid: 142
+    wildcards: project=SRR5150035
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:32 2020]
+Finished job 142.
+17 of 152 steps (11%) done
+
+[Mon Jun  8 11:58:32 2020]
+rule format_sra_table:
+    input: metadata/SRR5150035_sra_run_info.txt
+    output: metadata/SRR5150035_sra_run_metadata.txt
+    jobid: 67
+    wildcards: project=SRR5150035
+
+[Mon Jun  8 11:58:32 2020]
+Finished job 67.
+18 of 152 steps (12%) done
+
+[Mon Jun  8 11:58:32 2020]
+rule get_sra_table:
+    output: metadata/SRR1802195_sra_run_info.txt
+    jobid: 97
+    wildcards: project=SRR1802195
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:34 2020]
+Finished job 97.
+19 of 152 steps (12%) done
+
+[Mon Jun  8 11:58:34 2020]
+rule format_sra_table:
+    input: metadata/SRR1802195_sra_run_info.txt
+    output: metadata/SRR1802195_sra_run_metadata.txt
+    jobid: 22
+    wildcards: project=SRR1802195
+
+[Mon Jun  8 11:58:34 2020]
+Finished job 22.
+20 of 152 steps (13%) done
+
+[Mon Jun  8 11:58:34 2020]
+rule get_sra_table:
+    output: metadata/SRR5150033_sra_run_info.txt
+    jobid: 137
+    wildcards: project=SRR5150033
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:36 2020]
+Finished job 137.
+21 of 152 steps (14%) done
+
+[Mon Jun  8 11:58:36 2020]
+rule format_sra_table:
+    input: metadata/SRR5150033_sra_run_info.txt
+    output: metadata/SRR5150033_sra_run_metadata.txt
+    jobid: 62
+    wildcards: project=SRR5150033
+
+[Mon Jun  8 11:58:36 2020]
+Finished job 62.
+22 of 152 steps (14%) done
+
+[Mon Jun  8 11:58:36 2020]
+rule get_sra_table:
+    output: metadata/SRR1919294_sra_run_info.txt
+    jobid: 103
+    wildcards: project=SRR1919294
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:38 2020]
+Finished job 103.
+23 of 152 steps (15%) done
+
+[Mon Jun  8 11:58:38 2020]
+rule format_sra_table:
+    input: metadata/SRR1919294_sra_run_info.txt
+    output: metadata/SRR1919294_sra_run_metadata.txt
+    jobid: 28
+    wildcards: project=SRR1919294
+
+[Mon Jun  8 11:58:38 2020]
+Finished job 28.
+24 of 152 steps (16%) done
+
+[Mon Jun  8 11:58:38 2020]
+rule get_sra_table:
+    output: metadata/SRR629516_sra_run_info.txt
+    jobid: 80
+    wildcards: project=SRR629516
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:40 2020]
+Finished job 80.
+25 of 152 steps (16%) done
+
+[Mon Jun  8 11:58:40 2020]
+rule format_sra_table:
+    input: metadata/SRR629516_sra_run_info.txt
+    output: metadata/SRR629516_sra_run_metadata.txt
+    jobid: 5
+    wildcards: project=SRR629516
+
+[Mon Jun  8 11:58:40 2020]
+Finished job 5.
+26 of 152 steps (17%) done
+
+[Mon Jun  8 11:58:40 2020]
+rule get_sra_table:
+    output: metadata/SRR1919297_sra_run_info.txt
+    jobid: 112
+    wildcards: project=SRR1919297
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:43 2020]
+Finished job 112.
+27 of 152 steps (18%) done
+
+[Mon Jun  8 11:58:43 2020]
+rule format_sra_table:
+    input: metadata/SRR1919297_sra_run_info.txt
+    output: metadata/SRR1919297_sra_run_metadata.txt
+    jobid: 37
+    wildcards: project=SRR1919297
+
+[Mon Jun  8 11:58:43 2020]
+Finished job 37.
+28 of 152 steps (18%) done
+
+[Mon Jun  8 11:58:43 2020]
+rule get_sra_table:
+    output: metadata/SRR5150037_sra_run_info.txt
+    jobid: 138
+    wildcards: project=SRR5150037
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:45 2020]
+Finished job 138.
+29 of 152 steps (19%) done
+
+[Mon Jun  8 11:58:45 2020]
+rule format_sra_table:
+    input: metadata/SRR5150037_sra_run_info.txt
+    output: metadata/SRR5150037_sra_run_metadata.txt
+    jobid: 63
+    wildcards: project=SRR5150037
+
+[Mon Jun  8 11:58:45 2020]
+Finished job 63.
+30 of 152 steps (20%) done
+
+[Mon Jun  8 11:58:45 2020]
+rule get_sra_table:
+    output: metadata/SRR2135515_sra_run_info.txt
+    jobid: 89
+    wildcards: project=SRR2135515
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:47 2020]
+Finished job 89.
+31 of 152 steps (20%) done
+
+[Mon Jun  8 11:58:47 2020]
+rule format_sra_table:
+    input: metadata/SRR2135515_sra_run_info.txt
+    output: metadata/SRR2135515_sra_run_metadata.txt
+    jobid: 14
+    wildcards: project=SRR2135515
+
+[Mon Jun  8 11:58:47 2020]
+Finished job 14.
+32 of 152 steps (21%) done
+
+[Mon Jun  8 11:58:47 2020]
+rule get_sra_table:
+    output: metadata/SRR1919295_sra_run_info.txt
+    jobid: 104
+    wildcards: project=SRR1919295
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:49 2020]
+Finished job 104.
+33 of 152 steps (22%) done
+
+[Mon Jun  8 11:58:49 2020]
+rule format_sra_table:
+    input: metadata/SRR1919295_sra_run_info.txt
+    output: metadata/SRR1919295_sra_run_metadata.txt
+    jobid: 29
+    wildcards: project=SRR1919295
+
+[Mon Jun  8 11:58:49 2020]
+Finished job 29.
+34 of 152 steps (22%) done
+
+[Mon Jun  8 11:58:49 2020]
+rule get_sra_table:
+    output: metadata/SRR1919301_sra_run_info.txt
+    jobid: 105
+    wildcards: project=SRR1919301
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:51 2020]
+Finished job 105.
+35 of 152 steps (23%) done
+
+[Mon Jun  8 11:58:51 2020]
+rule format_sra_table:
+    input: metadata/SRR1919301_sra_run_info.txt
+    output: metadata/SRR1919301_sra_run_metadata.txt
+    jobid: 30
+    wildcards: project=SRR1919301
+
+[Mon Jun  8 11:58:51 2020]
+Finished job 30.
+36 of 152 steps (24%) done
+
+[Mon Jun  8 11:58:51 2020]
+rule get_sra_table:
+    output: metadata/SRR521289_sra_run_info.txt
+    jobid: 78
+    wildcards: project=SRR521289
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:53 2020]
+Finished job 78.
+37 of 152 steps (24%) done
+
+[Mon Jun  8 11:58:53 2020]
+rule format_sra_table:
+    input: metadata/SRR521289_sra_run_info.txt
+    output: metadata/SRR521289_sra_run_metadata.txt
+    jobid: 3
+    wildcards: project=SRR521289
+
+[Mon Jun  8 11:58:53 2020]
+Finished job 3.
+38 of 152 steps (25%) done
+
+[Mon Jun  8 11:58:53 2020]
+rule get_sra_table:
+    output: metadata/SRR1919293_sra_run_info.txt
+    jobid: 100
+    wildcards: project=SRR1919293
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:55 2020]
+Finished job 100.
+39 of 152 steps (26%) done
+
+[Mon Jun  8 11:58:55 2020]
+rule format_sra_table:
+    input: metadata/SRR1919293_sra_run_info.txt
+    output: metadata/SRR1919293_sra_run_metadata.txt
+    jobid: 25
+    wildcards: project=SRR1919293
+
+[Mon Jun  8 11:58:55 2020]
+Finished job 25.
+40 of 152 steps (26%) done
+
+[Mon Jun  8 11:58:55 2020]
+rule get_sra_table:
+    output: metadata/SRR1045112_sra_run_info.txt
+    jobid: 87
+    wildcards: project=SRR1045112
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:57 2020]
+Finished job 87.
+41 of 152 steps (27%) done
+
+[Mon Jun  8 11:58:57 2020]
+rule format_sra_table:
+    input: metadata/SRR1045112_sra_run_info.txt
+    output: metadata/SRR1045112_sra_run_metadata.txt
+    jobid: 12
+    wildcards: project=SRR1045112
+
+[Mon Jun  8 11:58:57 2020]
+Finished job 12.
+42 of 152 steps (28%) done
+
+[Mon Jun  8 11:58:57 2020]
+rule get_sra_table:
+    output: metadata/SRR629507_sra_run_info.txt
+    jobid: 81
+    wildcards: project=SRR629507
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:58:59 2020]
+Finished job 81.
+43 of 152 steps (28%) done
+
+[Mon Jun  8 11:58:59 2020]
+rule format_sra_table:
+    input: metadata/SRR629507_sra_run_info.txt
+    output: metadata/SRR629507_sra_run_metadata.txt
+    jobid: 6
+    wildcards: project=SRR629507
+
+[Mon Jun  8 11:58:59 2020]
+Finished job 6.
+44 of 152 steps (29%) done
+
+[Mon Jun  8 11:58:59 2020]
+rule get_sra_table:
+    output: metadata/SRR1802196_sra_run_info.txt
+    jobid: 91
+    wildcards: project=SRR1802196
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:01 2020]
+Finished job 91.
+45 of 152 steps (30%) done
+
+[Mon Jun  8 11:59:01 2020]
+rule format_sra_table:
+    input: metadata/SRR1802196_sra_run_info.txt
+    output: metadata/SRR1802196_sra_run_metadata.txt
+    jobid: 16
+    wildcards: project=SRR1802196
+
+[Mon Jun  8 11:59:01 2020]
+Finished job 16.
+46 of 152 steps (30%) done
+
+[Mon Jun  8 11:59:01 2020]
+rule get_sra_table:
+    output: metadata/SRR1919291_sra_run_info.txt
+    jobid: 101
+    wildcards: project=SRR1919291
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:03 2020]
+Finished job 101.
+47 of 152 steps (31%) done
+
+[Mon Jun  8 11:59:03 2020]
+rule format_sra_table:
+    input: metadata/SRR1919291_sra_run_info.txt
+    output: metadata/SRR1919291_sra_run_metadata.txt
+    jobid: 26
+    wildcards: project=SRR1919291
+
+[Mon Jun  8 11:59:03 2020]
+Finished job 26.
+48 of 152 steps (32%) done
+
+[Mon Jun  8 11:59:03 2020]
+rule get_sra_table:
+    output: metadata/SRR521286_sra_run_info.txt
+    jobid: 76
+    wildcards: project=SRR521286
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:05 2020]
+Finished job 76.
+49 of 152 steps (32%) done
+
+[Mon Jun  8 11:59:05 2020]
+rule format_sra_table:
+    input: metadata/SRR521286_sra_run_info.txt
+    output: metadata/SRR521286_sra_run_metadata.txt
+    jobid: 1
+    wildcards: project=SRR521286
+
+[Mon Jun  8 11:59:05 2020]
+Finished job 1.
+50 of 152 steps (33%) done
+
+[Mon Jun  8 11:59:05 2020]
+rule get_sra_table:
+    output: metadata/SRR1919305_sra_run_info.txt
+    jobid: 108
+    wildcards: project=SRR1919305
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:07 2020]
+Finished job 108.
+51 of 152 steps (34%) done
+
+[Mon Jun  8 11:59:07 2020]
+rule format_sra_table:
+    input: metadata/SRR1919305_sra_run_info.txt
+    output: metadata/SRR1919305_sra_run_metadata.txt
+    jobid: 33
+    wildcards: project=SRR1919305
+
+[Mon Jun  8 11:59:07 2020]
+Finished job 33.
+52 of 152 steps (34%) done
+
+[Mon Jun  8 11:59:07 2020]
+rule get_sra_table:
+    output: metadata/SRR1919296_sra_run_info.txt
+    jobid: 111
+    wildcards: project=SRR1919296
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:09 2020]
+Finished job 111.
+53 of 152 steps (35%) done
+
+[Mon Jun  8 11:59:09 2020]
+rule format_sra_table:
+    input: metadata/SRR1919296_sra_run_info.txt
+    output: metadata/SRR1919296_sra_run_metadata.txt
+    jobid: 36
+    wildcards: project=SRR1919296
+
+[Mon Jun  8 11:59:09 2020]
+Finished job 36.
+54 of 152 steps (36%) done
+
+[Mon Jun  8 11:59:09 2020]
+rule get_sra_table:
+    output: metadata/SRR1919298_sra_run_info.txt
+    jobid: 114
+    wildcards: project=SRR1919298
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:11 2020]
+Finished job 114.
+55 of 152 steps (36%) done
+
+[Mon Jun  8 11:59:11 2020]
+rule format_sra_table:
+    input: metadata/SRR1919298_sra_run_info.txt
+    output: metadata/SRR1919298_sra_run_metadata.txt
+    jobid: 39
+    wildcards: project=SRR1919298
+
+[Mon Jun  8 11:59:11 2020]
+Finished job 39.
+56 of 152 steps (37%) done
+
+[Mon Jun  8 11:59:11 2020]
+rule get_sra_table:
+    output: metadata/SRR3997517_sra_run_info.txt
+    jobid: 123
+    wildcards: project=SRR3997517
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:13 2020]
+Finished job 123.
+57 of 152 steps (38%) done
+
+[Mon Jun  8 11:59:13 2020]
+rule format_sra_table:
+    input: metadata/SRR3997517_sra_run_info.txt
+    output: metadata/SRR3997517_sra_run_metadata.txt
+    jobid: 48
+    wildcards: project=SRR3997517
+
+[Mon Jun  8 11:59:13 2020]
+Finished job 48.
+58 of 152 steps (38%) done
+
+[Mon Jun  8 11:59:13 2020]
+rule get_sra_table:
+    output: metadata/SRR4421121_sra_run_info.txt
+    jobid: 130
+    wildcards: project=SRR4421121
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:15 2020]
+Finished job 130.
+59 of 152 steps (39%) done
+
+[Mon Jun  8 11:59:15 2020]
+rule format_sra_table:
+    input: metadata/SRR4421121_sra_run_info.txt
+    output: metadata/SRR4421121_sra_run_metadata.txt
+    jobid: 55
+    wildcards: project=SRR4421121
+
+[Mon Jun  8 11:59:15 2020]
+Finished job 55.
+60 of 152 steps (39%) done
+
+[Mon Jun  8 11:59:15 2020]
+rule get_sra_table:
+    output: metadata/SRR1919303_sra_run_info.txt
+    jobid: 109
+    wildcards: project=SRR1919303
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:17 2020]
+Finished job 109.
+61 of 152 steps (40%) done
+
+[Mon Jun  8 11:59:17 2020]
+rule format_sra_table:
+    input: metadata/SRR1919303_sra_run_info.txt
+    output: metadata/SRR1919303_sra_run_metadata.txt
+    jobid: 34
+    wildcards: project=SRR1919303
+
+[Mon Jun  8 11:59:17 2020]
+Finished job 34.
+62 of 152 steps (41%) done
+
+[Mon Jun  8 11:59:17 2020]
+rule get_sra_table:
+    output: metadata/SRR5150029_sra_run_info.txt
+    jobid: 148
+    wildcards: project=SRR5150029
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:19 2020]
+Finished job 148.
+63 of 152 steps (41%) done
+
+[Mon Jun  8 11:59:19 2020]
+rule format_sra_table:
+    input: metadata/SRR5150029_sra_run_info.txt
+    output: metadata/SRR5150029_sra_run_metadata.txt
+    jobid: 73
+    wildcards: project=SRR5150029
+
+[Mon Jun  8 11:59:19 2020]
+Finished job 73.
+64 of 152 steps (42%) done
+
+[Mon Jun  8 11:59:19 2020]
+rule get_sra_table:
+    output: metadata/SRR5150028_sra_run_info.txt
+    jobid: 134
+    wildcards: project=SRR5150028
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:21 2020]
+Finished job 134.
+65 of 152 steps (43%) done
+
+[Mon Jun  8 11:59:21 2020]
+rule format_sra_table:
+    input: metadata/SRR5150028_sra_run_info.txt
+    output: metadata/SRR5150028_sra_run_metadata.txt
+    jobid: 59
+    wildcards: project=SRR5150028
+
+[Mon Jun  8 11:59:21 2020]
+Finished job 59.
+66 of 152 steps (43%) done
+
+[Mon Jun  8 11:59:21 2020]
+rule get_sra_table:
+    output: metadata/PROJ_ACC_sra_run_info.txt
+    jobid: 151
+    wildcards: project=PROJ_ACC
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:22 2020]
+Finished job 151.
+67 of 152 steps (44%) done
+
+[Mon Jun  8 11:59:22 2020]
+rule get_sra_table:
+    output: metadata/SRR3997525_sra_run_info.txt
+    jobid: 125
+    wildcards: project=SRR3997525
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:24 2020]
+Finished job 125.
+68 of 152 steps (45%) done
+
+[Mon Jun  8 11:59:24 2020]
+rule format_sra_table:
+    input: metadata/SRR3997525_sra_run_info.txt
+    output: metadata/SRR3997525_sra_run_metadata.txt
+    jobid: 50
+    wildcards: project=SRR3997525
+
+[Mon Jun  8 11:59:24 2020]
+Finished job 50.
+69 of 152 steps (45%) done
+
+[Mon Jun  8 11:59:24 2020]
+rule get_sra_table:
+    output: metadata/SRR5150034_sra_run_info.txt
+    jobid: 132
+    wildcards: project=SRR5150034
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:26 2020]
+Finished job 132.
+70 of 152 steps (46%) done
+
+[Mon Jun  8 11:59:26 2020]
+rule format_sra_table:
+    input: metadata/SRR5150034_sra_run_info.txt
+    output: metadata/SRR5150034_sra_run_metadata.txt
+    jobid: 57
+    wildcards: project=SRR5150034
+
+[Mon Jun  8 11:59:26 2020]
+Finished job 57.
+71 of 152 steps (47%) done
+
+[Mon Jun  8 11:59:26 2020]
+rule get_sra_table:
+    output: metadata/SRR1919300_sra_run_info.txt
+    jobid: 110
+    wildcards: project=SRR1919300
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:28 2020]
+Finished job 110.
+72 of 152 steps (47%) done
+
+[Mon Jun  8 11:59:28 2020]
+rule format_sra_table:
+    input: metadata/SRR1919300_sra_run_info.txt
+    output: metadata/SRR1919300_sra_run_metadata.txt
+    jobid: 35
+    wildcards: project=SRR1919300
+
+[Mon Jun  8 11:59:28 2020]
+Finished job 35.
+73 of 152 steps (48%) done
+
+[Mon Jun  8 11:59:28 2020]
+rule get_sra_table:
+    output: metadata/SRR4421125_sra_run_info.txt
+    jobid: 129
+    wildcards: project=SRR4421125
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:30 2020]
+Finished job 129.
+74 of 152 steps (49%) done
+
+[Mon Jun  8 11:59:30 2020]
+rule format_sra_table:
+    input: metadata/SRR4421125_sra_run_info.txt
+    output: metadata/SRR4421125_sra_run_metadata.txt
+    jobid: 54
+    wildcards: project=SRR4421125
+
+[Mon Jun  8 11:59:30 2020]
+Finished job 54.
+75 of 152 steps (49%) done
+
+[Mon Jun  8 11:59:30 2020]
+rule get_sra_table:
+    output: metadata/SRR4421123_sra_run_info.txt
+    jobid: 127
+    wildcards: project=SRR4421123
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:34 2020]
+Finished job 127.
+76 of 152 steps (50%) done
+
+[Mon Jun  8 11:59:34 2020]
+rule format_sra_table:
+    input: metadata/SRR4421123_sra_run_info.txt
+    output: metadata/SRR4421123_sra_run_metadata.txt
+    jobid: 52
+    wildcards: project=SRR4421123
+
+[Mon Jun  8 11:59:34 2020]
+Finished job 52.
+77 of 152 steps (51%) done
+
+[Mon Jun  8 11:59:34 2020]
+rule get_sra_table:
+    output: metadata/SRR5150032_sra_run_info.txt
+    jobid: 140
+    wildcards: project=SRR5150032
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:36 2020]
+Finished job 140.
+78 of 152 steps (51%) done
+
+[Mon Jun  8 11:59:36 2020]
+rule format_sra_table:
+    input: metadata/SRR5150032_sra_run_info.txt
+    output: metadata/SRR5150032_sra_run_metadata.txt
+    jobid: 65
+    wildcards: project=SRR5150032
+
+[Mon Jun  8 11:59:36 2020]
+Finished job 65.
+79 of 152 steps (52%) done
+
+[Mon Jun  8 11:59:36 2020]
+rule get_sra_table:
+    output: metadata/SRR5150039_sra_run_info.txt
+    jobid: 139
+    wildcards: project=SRR5150039
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:38 2020]
+Finished job 139.
+80 of 152 steps (53%) done
+
+[Mon Jun  8 11:59:38 2020]
+rule format_sra_table:
+    input: metadata/SRR5150039_sra_run_info.txt
+    output: metadata/SRR5150039_sra_run_metadata.txt
+    jobid: 64
+    wildcards: project=SRR5150039
+
+[Mon Jun  8 11:59:38 2020]
+Finished job 64.
+81 of 152 steps (53%) done
+
+[Mon Jun  8 11:59:38 2020]
+rule get_sra_table:
+    output: metadata/SRR3997520_sra_run_info.txt
+    jobid: 120
+    wildcards: project=SRR3997520
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:40 2020]
+Finished job 120.
+82 of 152 steps (54%) done
+
+[Mon Jun  8 11:59:40 2020]
+rule format_sra_table:
+    input: metadata/SRR3997520_sra_run_info.txt
+    output: metadata/SRR3997520_sra_run_metadata.txt
+    jobid: 45
+    wildcards: project=SRR3997520
+
+[Mon Jun  8 11:59:40 2020]
+Finished job 45.
+83 of 152 steps (55%) done
+
+[Mon Jun  8 11:59:40 2020]
+rule get_sra_table:
+    output: metadata/SRR1943296_sra_run_info.txt
+    jobid: 115
+    wildcards: project=SRR1943296
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:43 2020]
+Finished job 115.
+84 of 152 steps (55%) done
+
+[Mon Jun  8 11:59:43 2020]
+rule format_sra_table:
+    input: metadata/SRR1943296_sra_run_info.txt
+    output: metadata/SRR1943296_sra_run_metadata.txt
+    jobid: 40
+    wildcards: project=SRR1943296
+
+[Mon Jun  8 11:59:43 2020]
+Finished job 40.
+85 of 152 steps (56%) done
+
+[Mon Jun  8 11:59:43 2020]
+rule get_sra_table:
+    output: metadata/SRR5150026_sra_run_info.txt
+    jobid: 135
+    wildcards: project=SRR5150026
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:45 2020]
+Finished job 135.
+86 of 152 steps (57%) done
+
+[Mon Jun  8 11:59:45 2020]
+rule format_sra_table:
+    input: metadata/SRR5150026_sra_run_info.txt
+    output: metadata/SRR5150026_sra_run_metadata.txt
+    jobid: 60
+    wildcards: project=SRR5150026
+
+[Mon Jun  8 11:59:45 2020]
+Finished job 60.
+87 of 152 steps (57%) done
+
+[Mon Jun  8 11:59:45 2020]
+rule get_sra_table:
+    output: metadata/SRR629504_sra_run_info.txt
+    jobid: 82
+    wildcards: project=SRR629504
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:47 2020]
+Finished job 82.
+88 of 152 steps (58%) done
+
+[Mon Jun  8 11:59:47 2020]
+rule format_sra_table:
+    input: metadata/SRR629504_sra_run_info.txt
+    output: metadata/SRR629504_sra_run_metadata.txt
+    jobid: 7
+    wildcards: project=SRR629504
+
+[Mon Jun  8 11:59:47 2020]
+Finished job 7.
+89 of 152 steps (59%) done
+
+[Mon Jun  8 11:59:47 2020]
+rule get_sra_table:
+    output: metadata/SRR629506_sra_run_info.txt
+    jobid: 84
+    wildcards: project=SRR629506
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:50 2020]
+Finished job 84.
+90 of 152 steps (59%) done
+
+[Mon Jun  8 11:59:50 2020]
+rule format_sra_table:
+    input: metadata/SRR629506_sra_run_info.txt
+    output: metadata/SRR629506_sra_run_metadata.txt
+    jobid: 9
+    wildcards: project=SRR629506
+
+[Mon Jun  8 11:59:50 2020]
+Finished job 9.
+91 of 152 steps (60%) done
+
+[Mon Jun  8 11:59:50 2020]
+rule get_sra_table:
+    output: metadata/SRR2135010_sra_run_info.txt
+    jobid: 90
+    wildcards: project=SRR2135010
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:53 2020]
+Finished job 90.
+92 of 152 steps (61%) done
+
+[Mon Jun  8 11:59:53 2020]
+rule format_sra_table:
+    input: metadata/SRR2135010_sra_run_info.txt
+    output: metadata/SRR2135010_sra_run_metadata.txt
+    jobid: 15
+    wildcards: project=SRR2135010
+
+[Mon Jun  8 11:59:53 2020]
+Finished job 15.
+93 of 152 steps (61%) done
+
+[Mon Jun  8 11:59:53 2020]
+rule get_sra_table:
+    output: metadata/SRR1802198_sra_run_info.txt
+    jobid: 95
+    wildcards: project=SRR1802198
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:55 2020]
+Finished job 95.
+94 of 152 steps (62%) done
+
+[Mon Jun  8 11:59:55 2020]
+rule format_sra_table:
+    input: metadata/SRR1802198_sra_run_info.txt
+    output: metadata/SRR1802198_sra_run_metadata.txt
+    jobid: 20
+    wildcards: project=SRR1802198
+
+[Mon Jun  8 11:59:55 2020]
+Finished job 20.
+95 of 152 steps (62%) done
+
+[Mon Jun  8 11:59:55 2020]
+rule get_sra_table:
+    output: metadata/SRR1919304_sra_run_info.txt
+    jobid: 113
+    wildcards: project=SRR1919304
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:57 2020]
+Finished job 113.
+96 of 152 steps (63%) done
+
+[Mon Jun  8 11:59:57 2020]
+rule format_sra_table:
+    input: metadata/SRR1919304_sra_run_info.txt
+    output: metadata/SRR1919304_sra_run_metadata.txt
+    jobid: 38
+    wildcards: project=SRR1919304
+
+[Mon Jun  8 11:59:57 2020]
+Finished job 38.
+97 of 152 steps (64%) done
+
+[Mon Jun  8 11:59:57 2020]
+rule get_sra_table:
+    output: metadata/SRR629513_sra_run_info.txt
+    jobid: 83
+    wildcards: project=SRR629513
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 11:59:59 2020]
+Finished job 83.
+98 of 152 steps (64%) done
+
+[Mon Jun  8 11:59:59 2020]
+rule format_sra_table:
+    input: metadata/SRR629513_sra_run_info.txt
+    output: metadata/SRR629513_sra_run_metadata.txt
+    jobid: 8
+    wildcards: project=SRR629513
+
+[Mon Jun  8 11:59:59 2020]
+Finished job 8.
+99 of 152 steps (65%) done
+
+[Mon Jun  8 11:59:59 2020]
+rule get_sra_table:
+    output: metadata/SRR1919290_sra_run_info.txt
+    jobid: 102
+    wildcards: project=SRR1919290
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 12:00:01 2020]
+Finished job 102.
+100 of 152 steps (66%) done
+
+[Mon Jun  8 12:00:01 2020]
+rule format_sra_table:
+    input: metadata/SRR1919290_sra_run_info.txt
+    output: metadata/SRR1919290_sra_run_metadata.txt
+    jobid: 27
+    wildcards: project=SRR1919290
+
+[Mon Jun  8 12:00:01 2020]
+Finished job 27.
+101 of 152 steps (66%) done
+
+[Mon Jun  8 12:00:01 2020]
+rule get_sra_table:
+    output: metadata/SRR1802199_sra_run_info.txt
+    jobid: 92
+    wildcards: project=SRR1802199
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 12:00:03 2020]
+Finished job 92.
+102 of 152 steps (67%) done
+
+[Mon Jun  8 12:00:03 2020]
+rule format_sra_table:
+    input: metadata/SRR1802199_sra_run_info.txt
+    output: metadata/SRR1802199_sra_run_metadata.txt
+    jobid: 17
+    wildcards: project=SRR1802199
+
+[Mon Jun  8 12:00:03 2020]
+Finished job 17.
+103 of 152 steps (68%) done
+
+[Mon Jun  8 12:00:03 2020]
+rule get_sra_table:
+    output: metadata/SRR5150023_sra_run_info.txt
+    jobid: 133
+    wildcards: project=SRR5150023
+
+Activating conda environment: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13
+[Mon Jun  8 12:00:05 2020]
+Finished job 133.
+104 of 152 steps (68%) done
+
+[Mon Jun  8 12:00:05 2020]
+rule format_sra_table:
+    input: metadata/SRR5150023_sra_run_info.txt
+    output: metadata/SRR5150023_sra_run_metadata.txt
+    jobid: 58
+    wildcards: project=SRR5150023
+
+[Mon Jun  8 12:00:05 2020]
+Finished job 58.
+105 of 152 steps (69%) done
+
+[Mon Jun  8 12:00:05 2020]
+rule format_sra_table:
+    input: metadata/PROJ_ACC_sra_run_info.txt
+    output: metadata/PROJ_ACC_sra_run_metadata.txt
+    jobid: 150
+    wildcards: project=PROJ_ACC
+
+[Mon Jun  8 12:00:05 2020]
+Finished job 150.
+106 of 152 steps (70%) done
+
+[Mon Jun  8 12:00:05 2020]
+rule combine_sra_table:
+    input: metadata/PROJ_ACC_sra_run_metadata.txt
+    output: metadata/merge.txt
+    jobid: 75
+
+[Mon Jun  8 12:00:05 2020]
+Error in rule combine_sra_table:
+    jobid: 75
+    output: metadata/merge.txt
+
+RuleException:
+CalledProcessError in line 46 of /local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile:
+Command ' set -euo pipefail;  
+		cat metadata/PROJ_ACC_sra_run_metadata.txt > metadata/merge.txt
+		head -n 1 metadata/merge.txt > metadata/merge.txt.tmp
+		grep --color=none "\S" metadata/merge.txt | sed '/Run	avgLength/d' >> metadata/merge.txt.tmp
+		rm metadata/merge.txt; mv metadata/merge.txt.tmp metadata/merge.txt ' returned non-zero exit status 1.
+  File "/local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile", line 46, in __rule_combine_sra_table
+  File "/usr/lib64/python3.6/concurrent/futures/thread.py", line 56, in run
+Removing output files of failed job combine_sra_table since they might be corrupted:
+metadata/merge.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/log/2020-06-08T115802.310397.snakemake.log

@@ -1,0 +1,2 @@
+/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/HTTP/Daemon.pm relocate_as=../../../../HTTP/Daemon.pm
+/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/HTTP::Daemon.3 relocate_as=../../../../../../../man/man3/HTTP::Daemon.3

@@ -1,0 +1,844 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	combine_sra_table
+	74	format_sra_table
+	76
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150029_sra_run_info.txt
+    output: metadata/SRR5150029_sra_run_metadata.txt
+    jobid: 73
+    wildcards: project=SRR5150029
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 73.
+1 of 76 steps (1%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150033_sra_run_info.txt
+    output: metadata/SRR5150033_sra_run_metadata.txt
+    jobid: 62
+    wildcards: project=SRR5150033
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 62.
+2 of 76 steps (3%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150040_sra_run_info.txt
+    output: metadata/SRR5150040_sra_run_metadata.txt
+    jobid: 70
+    wildcards: project=SRR5150040
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 70.
+3 of 76 steps (4%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150038_sra_run_info.txt
+    output: metadata/SRR5150038_sra_run_metadata.txt
+    jobid: 74
+    wildcards: project=SRR5150038
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 74.
+4 of 76 steps (5%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150026_sra_run_info.txt
+    output: metadata/SRR5150026_sra_run_metadata.txt
+    jobid: 60
+    wildcards: project=SRR5150026
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 60.
+5 of 76 steps (7%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150025_sra_run_info.txt
+    output: metadata/SRR5150025_sra_run_metadata.txt
+    jobid: 61
+    wildcards: project=SRR5150025
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 61.
+6 of 76 steps (8%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150030_sra_run_info.txt
+    output: metadata/SRR5150030_sra_run_metadata.txt
+    jobid: 71
+    wildcards: project=SRR5150030
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 71.
+7 of 76 steps (9%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150023_sra_run_info.txt
+    output: metadata/SRR5150023_sra_run_metadata.txt
+    jobid: 58
+    wildcards: project=SRR5150023
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 58.
+8 of 76 steps (11%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150036_sra_run_info.txt
+    output: metadata/SRR5150036_sra_run_metadata.txt
+    jobid: 72
+    wildcards: project=SRR5150036
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 72.
+9 of 76 steps (12%) done
+
+[Mon Jun  8 12:17:14 2020]
+rule format_sra_table:
+    input: metadata/SRR5150034_sra_run_info.txt
+    output: metadata/SRR5150034_sra_run_metadata.txt
+    jobid: 57
+    wildcards: project=SRR5150034
+
+[Mon Jun  8 12:17:14 2020]
+Finished job 57.
+10 of 76 steps (13%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150031_sra_run_info.txt
+    output: metadata/SRR5150031_sra_run_metadata.txt
+    jobid: 69
+    wildcards: project=SRR5150031
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 69.
+11 of 76 steps (14%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150028_sra_run_info.txt
+    output: metadata/SRR5150028_sra_run_metadata.txt
+    jobid: 59
+    wildcards: project=SRR5150028
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 59.
+12 of 76 steps (16%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150037_sra_run_info.txt
+    output: metadata/SRR5150037_sra_run_metadata.txt
+    jobid: 63
+    wildcards: project=SRR5150037
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 63.
+13 of 76 steps (17%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150039_sra_run_info.txt
+    output: metadata/SRR5150039_sra_run_metadata.txt
+    jobid: 64
+    wildcards: project=SRR5150039
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 64.
+14 of 76 steps (18%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150027_sra_run_info.txt
+    output: metadata/SRR5150027_sra_run_metadata.txt
+    jobid: 68
+    wildcards: project=SRR5150027
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 68.
+15 of 76 steps (20%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150035_sra_run_info.txt
+    output: metadata/SRR5150035_sra_run_metadata.txt
+    jobid: 67
+    wildcards: project=SRR5150035
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 67.
+16 of 76 steps (21%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150032_sra_run_info.txt
+    output: metadata/SRR5150032_sra_run_metadata.txt
+    jobid: 65
+    wildcards: project=SRR5150032
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 65.
+17 of 76 steps (22%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR5150024_sra_run_info.txt
+    output: metadata/SRR5150024_sra_run_metadata.txt
+    jobid: 66
+    wildcards: project=SRR5150024
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 66.
+18 of 76 steps (24%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR1943296_sra_run_info.txt
+    output: metadata/SRR1943296_sra_run_metadata.txt
+    jobid: 40
+    wildcards: project=SRR1943296
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 40.
+19 of 76 steps (25%) done
+
+[Mon Jun  8 12:17:15 2020]
+rule format_sra_table:
+    input: metadata/SRR1105786_sra_run_info.txt
+    output: metadata/SRR1105786_sra_run_metadata.txt
+    jobid: 11
+    wildcards: project=SRR1105786
+
+[Mon Jun  8 12:17:15 2020]
+Finished job 11.
+20 of 76 steps (26%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421124_sra_run_info.txt
+    output: metadata/SRR4421124_sra_run_metadata.txt
+    jobid: 51
+    wildcards: project=SRR4421124
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 51.
+21 of 76 steps (28%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421123_sra_run_info.txt
+    output: metadata/SRR4421123_sra_run_metadata.txt
+    jobid: 52
+    wildcards: project=SRR4421123
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 52.
+22 of 76 steps (29%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421122_sra_run_info.txt
+    output: metadata/SRR4421122_sra_run_metadata.txt
+    jobid: 53
+    wildcards: project=SRR4421122
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 53.
+23 of 76 steps (30%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421125_sra_run_info.txt
+    output: metadata/SRR4421125_sra_run_metadata.txt
+    jobid: 54
+    wildcards: project=SRR4421125
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 54.
+24 of 76 steps (32%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421121_sra_run_info.txt
+    output: metadata/SRR4421121_sra_run_metadata.txt
+    jobid: 55
+    wildcards: project=SRR4421121
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 55.
+25 of 76 steps (33%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR4421120_sra_run_info.txt
+    output: metadata/SRR4421120_sra_run_metadata.txt
+    jobid: 56
+    wildcards: project=SRR4421120
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 56.
+26 of 76 steps (34%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR2135010_sra_run_info.txt
+    output: metadata/SRR2135010_sra_run_metadata.txt
+    jobid: 15
+    wildcards: project=SRR2135010
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 15.
+27 of 76 steps (36%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR2135515_sra_run_info.txt
+    output: metadata/SRR2135515_sra_run_metadata.txt
+    jobid: 14
+    wildcards: project=SRR2135515
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 14.
+28 of 76 steps (37%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR2135514_sra_run_info.txt
+    output: metadata/SRR2135514_sra_run_metadata.txt
+    jobid: 13
+    wildcards: project=SRR2135514
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 13.
+29 of 76 steps (38%) done
+
+[Mon Jun  8 12:17:16 2020]
+rule format_sra_table:
+    input: metadata/SRR1045112_sra_run_info.txt
+    output: metadata/SRR1045112_sra_run_metadata.txt
+    jobid: 12
+    wildcards: project=SRR1045112
+
+[Mon Jun  8 12:17:16 2020]
+Finished job 12.
+30 of 76 steps (39%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR629513_sra_run_info.txt
+    output: metadata/SRR629513_sra_run_metadata.txt
+    jobid: 8
+    wildcards: project=SRR629513
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 8.
+31 of 76 steps (41%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR629507_sra_run_info.txt
+    output: metadata/SRR629507_sra_run_metadata.txt
+    jobid: 6
+    wildcards: project=SRR629507
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 6.
+32 of 76 steps (42%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR924150_sra_run_info.txt
+    output: metadata/SRR924150_sra_run_metadata.txt
+    jobid: 10
+    wildcards: project=SRR924150
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 10.
+33 of 76 steps (43%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR521286_sra_run_info.txt
+    output: metadata/SRR521286_sra_run_metadata.txt
+    jobid: 1
+    wildcards: project=SRR521286
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 1.
+34 of 76 steps (45%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR521289_sra_run_info.txt
+    output: metadata/SRR521289_sra_run_metadata.txt
+    jobid: 3
+    wildcards: project=SRR521289
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 3.
+35 of 76 steps (46%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR521288_sra_run_info.txt
+    output: metadata/SRR521288_sra_run_metadata.txt
+    jobid: 2
+    wildcards: project=SRR521288
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 2.
+36 of 76 steps (47%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR629506_sra_run_info.txt
+    output: metadata/SRR629506_sra_run_metadata.txt
+    jobid: 9
+    wildcards: project=SRR629506
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 9.
+37 of 76 steps (49%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR629504_sra_run_info.txt
+    output: metadata/SRR629504_sra_run_metadata.txt
+    jobid: 7
+    wildcards: project=SRR629504
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 7.
+38 of 76 steps (50%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR521290_sra_run_info.txt
+    output: metadata/SRR521290_sra_run_metadata.txt
+    jobid: 4
+    wildcards: project=SRR521290
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 4.
+39 of 76 steps (51%) done
+
+[Mon Jun  8 12:17:17 2020]
+rule format_sra_table:
+    input: metadata/SRR629516_sra_run_info.txt
+    output: metadata/SRR629516_sra_run_metadata.txt
+    jobid: 5
+    wildcards: project=SRR629516
+
+[Mon Jun  8 12:17:17 2020]
+Finished job 5.
+40 of 76 steps (53%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997524_sra_run_info.txt
+    output: metadata/SRR3997524_sra_run_metadata.txt
+    jobid: 41
+    wildcards: project=SRR3997524
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 41.
+41 of 76 steps (54%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997518_sra_run_info.txt
+    output: metadata/SRR3997518_sra_run_metadata.txt
+    jobid: 47
+    wildcards: project=SRR3997518
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 47.
+42 of 76 steps (55%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997522_sra_run_info.txt
+    output: metadata/SRR3997522_sra_run_metadata.txt
+    jobid: 43
+    wildcards: project=SRR3997522
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 43.
+43 of 76 steps (57%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997520_sra_run_info.txt
+    output: metadata/SRR3997520_sra_run_metadata.txt
+    jobid: 45
+    wildcards: project=SRR3997520
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 45.
+44 of 76 steps (58%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997523_sra_run_info.txt
+    output: metadata/SRR3997523_sra_run_metadata.txt
+    jobid: 42
+    wildcards: project=SRR3997523
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 42.
+45 of 76 steps (59%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997525_sra_run_info.txt
+    output: metadata/SRR3997525_sra_run_metadata.txt
+    jobid: 50
+    wildcards: project=SRR3997525
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 50.
+46 of 76 steps (61%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997521_sra_run_info.txt
+    output: metadata/SRR3997521_sra_run_metadata.txt
+    jobid: 44
+    wildcards: project=SRR3997521
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 44.
+47 of 76 steps (62%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997519_sra_run_info.txt
+    output: metadata/SRR3997519_sra_run_metadata.txt
+    jobid: 46
+    wildcards: project=SRR3997519
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 46.
+48 of 76 steps (63%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997517_sra_run_info.txt
+    output: metadata/SRR3997517_sra_run_metadata.txt
+    jobid: 48
+    wildcards: project=SRR3997517
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 48.
+49 of 76 steps (64%) done
+
+[Mon Jun  8 12:17:18 2020]
+rule format_sra_table:
+    input: metadata/SRR3997516_sra_run_info.txt
+    output: metadata/SRR3997516_sra_run_metadata.txt
+    jobid: 49
+    wildcards: project=SRR3997516
+
+[Mon Jun  8 12:17:18 2020]
+Finished job 49.
+50 of 76 steps (66%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919299_sra_run_info.txt
+    output: metadata/SRR1919299_sra_run_metadata.txt
+    jobid: 32
+    wildcards: project=SRR1919299
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 32.
+51 of 76 steps (67%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919291_sra_run_info.txt
+    output: metadata/SRR1919291_sra_run_metadata.txt
+    jobid: 26
+    wildcards: project=SRR1919291
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 26.
+52 of 76 steps (68%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919290_sra_run_info.txt
+    output: metadata/SRR1919290_sra_run_metadata.txt
+    jobid: 27
+    wildcards: project=SRR1919290
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 27.
+53 of 76 steps (70%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919295_sra_run_info.txt
+    output: metadata/SRR1919295_sra_run_metadata.txt
+    jobid: 29
+    wildcards: project=SRR1919295
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 29.
+54 of 76 steps (71%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919293_sra_run_info.txt
+    output: metadata/SRR1919293_sra_run_metadata.txt
+    jobid: 25
+    wildcards: project=SRR1919293
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 25.
+55 of 76 steps (72%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919304_sra_run_info.txt
+    output: metadata/SRR1919304_sra_run_metadata.txt
+    jobid: 38
+    wildcards: project=SRR1919304
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 38.
+56 of 76 steps (74%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919297_sra_run_info.txt
+    output: metadata/SRR1919297_sra_run_metadata.txt
+    jobid: 37
+    wildcards: project=SRR1919297
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 37.
+57 of 76 steps (75%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919294_sra_run_info.txt
+    output: metadata/SRR1919294_sra_run_metadata.txt
+    jobid: 28
+    wildcards: project=SRR1919294
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 28.
+58 of 76 steps (76%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919300_sra_run_info.txt
+    output: metadata/SRR1919300_sra_run_metadata.txt
+    jobid: 35
+    wildcards: project=SRR1919300
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 35.
+59 of 76 steps (78%) done
+
+[Mon Jun  8 12:17:19 2020]
+rule format_sra_table:
+    input: metadata/SRR1919296_sra_run_info.txt
+    output: metadata/SRR1919296_sra_run_metadata.txt
+    jobid: 36
+    wildcards: project=SRR1919296
+
+[Mon Jun  8 12:17:19 2020]
+Finished job 36.
+60 of 76 steps (79%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919303_sra_run_info.txt
+    output: metadata/SRR1919303_sra_run_metadata.txt
+    jobid: 34
+    wildcards: project=SRR1919303
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 34.
+61 of 76 steps (80%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919305_sra_run_info.txt
+    output: metadata/SRR1919305_sra_run_metadata.txt
+    jobid: 33
+    wildcards: project=SRR1919305
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 33.
+62 of 76 steps (82%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919302_sra_run_info.txt
+    output: metadata/SRR1919302_sra_run_metadata.txt
+    jobid: 31
+    wildcards: project=SRR1919302
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 31.
+63 of 76 steps (83%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919292_sra_run_info.txt
+    output: metadata/SRR1919292_sra_run_metadata.txt
+    jobid: 24
+    wildcards: project=SRR1919292
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 24.
+64 of 76 steps (84%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919298_sra_run_info.txt
+    output: metadata/SRR1919298_sra_run_metadata.txt
+    jobid: 39
+    wildcards: project=SRR1919298
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 39.
+65 of 76 steps (86%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1919301_sra_run_info.txt
+    output: metadata/SRR1919301_sra_run_metadata.txt
+    jobid: 30
+    wildcards: project=SRR1919301
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 30.
+66 of 76 steps (87%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1802197_sra_run_info.txt
+    output: metadata/SRR1802197_sra_run_metadata.txt
+    jobid: 21
+    wildcards: project=SRR1802197
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 21.
+67 of 76 steps (88%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1802200_sra_run_info.txt
+    output: metadata/SRR1802200_sra_run_metadata.txt
+    jobid: 18
+    wildcards: project=SRR1802200
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 18.
+68 of 76 steps (89%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1802194_sra_run_info.txt
+    output: metadata/SRR1802194_sra_run_metadata.txt
+    jobid: 19
+    wildcards: project=SRR1802194
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 19.
+69 of 76 steps (91%) done
+
+[Mon Jun  8 12:17:20 2020]
+rule format_sra_table:
+    input: metadata/SRR1802195_sra_run_info.txt
+    output: metadata/SRR1802195_sra_run_metadata.txt
+    jobid: 22
+    wildcards: project=SRR1802195
+
+[Mon Jun  8 12:17:20 2020]
+Finished job 22.
+70 of 76 steps (92%) done
+
+[Mon Jun  8 12:17:21 2020]
+rule format_sra_table:
+    input: metadata/SRR1802199_sra_run_info.txt
+    output: metadata/SRR1802199_sra_run_metadata.txt
+    jobid: 17
+    wildcards: project=SRR1802199
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 17.
+71 of 76 steps (93%) done
+
+[Mon Jun  8 12:17:21 2020]
+rule format_sra_table:
+    input: metadata/SRR1802201_sra_run_info.txt
+    output: metadata/SRR1802201_sra_run_metadata.txt
+    jobid: 23
+    wildcards: project=SRR1802201
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 23.
+72 of 76 steps (95%) done
+
+[Mon Jun  8 12:17:21 2020]
+rule format_sra_table:
+    input: metadata/SRR1802196_sra_run_info.txt
+    output: metadata/SRR1802196_sra_run_metadata.txt
+    jobid: 16
+    wildcards: project=SRR1802196
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 16.
+73 of 76 steps (96%) done
+
+[Mon Jun  8 12:17:21 2020]
+rule format_sra_table:
+    input: metadata/SRR1802198_sra_run_info.txt
+    output: metadata/SRR1802198_sra_run_metadata.txt
+    jobid: 20
+    wildcards: project=SRR1802198
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 20.
+74 of 76 steps (97%) done
+
+[Mon Jun  8 12:17:21 2020]
+rule combine_sra_table:
+    input: metadata/SRR521286_sra_run_metadata.txt, metadata/SRR521288_sra_run_metadata.txt, metadata/SRR521289_sra_run_metadata.txt, metadata/SRR521290_sra_run_metadata.txt, metadata/SRR629516_sra_run_metadata.txt, metadata/SRR629507_sra_run_metadata.txt, metadata/SRR629504_sra_run_metadata.txt, metadata/SRR629513_sra_run_metadata.txt, metadata/SRR629506_sra_run_metadata.txt, metadata/SRR924150_sra_run_metadata.txt, metadata/SRR1105786_sra_run_metadata.txt, metadata/SRR1045112_sra_run_metadata.txt, metadata/SRR2135514_sra_run_metadata.txt, metadata/SRR2135515_sra_run_metadata.txt, metadata/SRR2135010_sra_run_metadata.txt, metadata/SRR1802196_sra_run_metadata.txt, metadata/SRR1802199_sra_run_metadata.txt, metadata/SRR1802200_sra_run_metadata.txt, metadata/SRR1802194_sra_run_metadata.txt, metadata/SRR1802198_sra_run_metadata.txt, metadata/SRR1802197_sra_run_metadata.txt, metadata/SRR1802195_sra_run_metadata.txt, metadata/SRR1802201_sra_run_metadata.txt, metadata/SRR1919292_sra_run_metadata.txt, metadata/SRR1919293_sra_run_metadata.txt, metadata/SRR1919291_sra_run_metadata.txt, metadata/SRR1919290_sra_run_metadata.txt, metadata/SRR1919294_sra_run_metadata.txt, metadata/SRR1919295_sra_run_metadata.txt, metadata/SRR1919301_sra_run_metadata.txt, metadata/SRR1919302_sra_run_metadata.txt, metadata/SRR1919299_sra_run_metadata.txt, metadata/SRR1919305_sra_run_metadata.txt, metadata/SRR1919303_sra_run_metadata.txt, metadata/SRR1919300_sra_run_metadata.txt, metadata/SRR1919296_sra_run_metadata.txt, metadata/SRR1919297_sra_run_metadata.txt, metadata/SRR1919304_sra_run_metadata.txt, metadata/SRR1919298_sra_run_metadata.txt, metadata/SRR1943296_sra_run_metadata.txt, metadata/SRR3997524_sra_run_metadata.txt, metadata/SRR3997523_sra_run_metadata.txt, metadata/SRR3997522_sra_run_metadata.txt, metadata/SRR3997521_sra_run_metadata.txt, metadata/SRR3997520_sra_run_metadata.txt, metadata/SRR3997519_sra_run_metadata.txt, metadata/SRR3997518_sra_run_metadata.txt, metadata/SRR3997517_sra_run_metadata.txt, metadata/SRR3997516_sra_run_metadata.txt, metadata/SRR3997525_sra_run_metadata.txt, metadata/SRR4421124_sra_run_metadata.txt, metadata/SRR4421123_sra_run_metadata.txt, metadata/SRR4421122_sra_run_metadata.txt, metadata/SRR4421125_sra_run_metadata.txt, metadata/SRR4421121_sra_run_metadata.txt, metadata/SRR4421120_sra_run_metadata.txt, metadata/SRR5150034_sra_run_metadata.txt, metadata/SRR5150023_sra_run_metadata.txt, metadata/SRR5150028_sra_run_metadata.txt, metadata/SRR5150026_sra_run_metadata.txt, metadata/SRR5150025_sra_run_metadata.txt, metadata/SRR5150033_sra_run_metadata.txt, metadata/SRR5150037_sra_run_metadata.txt, metadata/SRR5150039_sra_run_metadata.txt, metadata/SRR5150032_sra_run_metadata.txt, metadata/SRR5150024_sra_run_metadata.txt, metadata/SRR5150035_sra_run_metadata.txt, metadata/SRR5150027_sra_run_metadata.txt, metadata/SRR5150031_sra_run_metadata.txt, metadata/SRR5150040_sra_run_metadata.txt, metadata/SRR5150030_sra_run_metadata.txt, metadata/SRR5150036_sra_run_metadata.txt, metadata/SRR5150029_sra_run_metadata.txt, metadata/SRR5150038_sra_run_metadata.txt
+    output: metadata/merge.txt
+    jobid: 75
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 75.
+75 of 76 steps (99%) done
+
+[Mon Jun  8 12:17:21 2020]
+localrule all:
+    input: metadata/SRR521286_sra_run_metadata.txt, metadata/SRR521288_sra_run_metadata.txt, metadata/SRR521289_sra_run_metadata.txt, metadata/SRR521290_sra_run_metadata.txt, metadata/SRR629516_sra_run_metadata.txt, metadata/SRR629507_sra_run_metadata.txt, metadata/SRR629504_sra_run_metadata.txt, metadata/SRR629513_sra_run_metadata.txt, metadata/SRR629506_sra_run_metadata.txt, metadata/SRR924150_sra_run_metadata.txt, metadata/SRR1105786_sra_run_metadata.txt, metadata/SRR1045112_sra_run_metadata.txt, metadata/SRR2135514_sra_run_metadata.txt, metadata/SRR2135515_sra_run_metadata.txt, metadata/SRR2135010_sra_run_metadata.txt, metadata/SRR1802196_sra_run_metadata.txt, metadata/SRR1802199_sra_run_metadata.txt, metadata/SRR1802200_sra_run_metadata.txt, metadata/SRR1802194_sra_run_metadata.txt, metadata/SRR1802198_sra_run_metadata.txt, metadata/SRR1802197_sra_run_metadata.txt, metadata/SRR1802195_sra_run_metadata.txt, metadata/SRR1802201_sra_run_metadata.txt, metadata/SRR1919292_sra_run_metadata.txt, metadata/SRR1919293_sra_run_metadata.txt, metadata/SRR1919291_sra_run_metadata.txt, metadata/SRR1919290_sra_run_metadata.txt, metadata/SRR1919294_sra_run_metadata.txt, metadata/SRR1919295_sra_run_metadata.txt, metadata/SRR1919301_sra_run_metadata.txt, metadata/SRR1919302_sra_run_metadata.txt, metadata/SRR1919299_sra_run_metadata.txt, metadata/SRR1919305_sra_run_metadata.txt, metadata/SRR1919303_sra_run_metadata.txt, metadata/SRR1919300_sra_run_metadata.txt, metadata/SRR1919296_sra_run_metadata.txt, metadata/SRR1919297_sra_run_metadata.txt, metadata/SRR1919304_sra_run_metadata.txt, metadata/SRR1919298_sra_run_metadata.txt, metadata/SRR1943296_sra_run_metadata.txt, metadata/SRR3997524_sra_run_metadata.txt, metadata/SRR3997523_sra_run_metadata.txt, metadata/SRR3997522_sra_run_metadata.txt, metadata/SRR3997521_sra_run_metadata.txt, metadata/SRR3997520_sra_run_metadata.txt, metadata/SRR3997519_sra_run_metadata.txt, metadata/SRR3997518_sra_run_metadata.txt, metadata/SRR3997517_sra_run_metadata.txt, metadata/SRR3997516_sra_run_metadata.txt, metadata/SRR3997525_sra_run_metadata.txt, metadata/SRR4421124_sra_run_metadata.txt, metadata/SRR4421123_sra_run_metadata.txt, metadata/SRR4421122_sra_run_metadata.txt, metadata/SRR4421125_sra_run_metadata.txt, metadata/SRR4421121_sra_run_metadata.txt, metadata/SRR4421120_sra_run_metadata.txt, metadata/SRR5150034_sra_run_metadata.txt, metadata/SRR5150023_sra_run_metadata.txt, metadata/SRR5150028_sra_run_metadata.txt, metadata/SRR5150026_sra_run_metadata.txt, metadata/SRR5150025_sra_run_metadata.txt, metadata/SRR5150033_sra_run_metadata.txt, metadata/SRR5150037_sra_run_metadata.txt, metadata/SRR5150039_sra_run_metadata.txt, metadata/SRR5150032_sra_run_metadata.txt, metadata/SRR5150024_sra_run_metadata.txt, metadata/SRR5150035_sra_run_metadata.txt, metadata/SRR5150027_sra_run_metadata.txt, metadata/SRR5150031_sra_run_metadata.txt, metadata/SRR5150040_sra_run_metadata.txt, metadata/SRR5150030_sra_run_metadata.txt, metadata/SRR5150036_sra_run_metadata.txt, metadata/SRR5150029_sra_run_metadata.txt, metadata/SRR5150038_sra_run_metadata.txt, metadata/merge.txt
+    jobid: 0
+
+[Mon Jun  8 12:17:21 2020]
+Finished job 0.
+76 of 76 steps (100%) done
+Complete log: /local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/log/2020-06-08T121713.322420.snakemake.log

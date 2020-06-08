@@ -1,0 +1,3 @@
+WorkflowError in line 6 of /local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile:
+Expecting Snakemake version 5.7.1 or higher.
+  File "/local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile", line 6, in <module>

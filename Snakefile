@@ -10,9 +10,11 @@ configfile: "config.yaml"
 
 PROJ_ACC = pd.read_csv(config["accession"], sep='\t', header=None, names=['PROJ_ACC'])
 
+wildcard_constraints:
+	project="|".join(PROJ_ACC['PROJ_ACC'])
+
 rule all:
 	input:
-		expand("metadata/{project}_sra_run_info.txt", project=PROJ_ACC['PROJ_ACC']),
 		"metadata/merge.txt"
 
 rule get_sra_table:
@@ -34,6 +36,14 @@ rule merge_raw:
 	shell:
 		"""
 		cat {input} > {output}
+		"""
+
+rule cleanup_meta:
+	input:
+		"metadata/all_run_info.txt"
+	shell:
+		"""
+		find ./metadata -iname "*_sra_run_info.txt" -exec rm {} \;
 		"""
 
 rule format_sra_table:
