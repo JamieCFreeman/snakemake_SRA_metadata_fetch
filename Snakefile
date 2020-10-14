@@ -19,7 +19,7 @@ rule all:
 
 rule get_sra_table:
 	output:
-		"metadata/{project}_sra_run_info.txt"
+		temp("metadata/{project}_sra_run_info.txt")
 	conda:
 		"./envs/NCBI_edirect.yml"
 	shell:
@@ -32,18 +32,10 @@ rule merge_raw:
 	input:
 		expand("metadata/{project}_sra_run_info.txt", project=PROJ_ACC['PROJ_ACC'])
 	output:
-		"metadata/all_run_info.txt"
+		temp("metadata/all_run_info.txt")
 	shell:
 		"""
 		cat {input} > {output}
-		"""
-
-rule cleanup_meta:
-	input:
-		"metadata/all_run_info.txt"
-	shell:
-		"""
-		find ./metadata -iname "*_sra_run_info.txt" -exec rm {} \;
 		"""
 
 rule format_sra_table:
