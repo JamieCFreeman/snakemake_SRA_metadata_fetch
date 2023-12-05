@@ -13,9 +13,10 @@ snakemake --use-conda
 For dry run:
 snakemake --dry-run --use-conda
 
-Example output file provided in metadata folder
-| Run	| avgLength	| Experiment |	LibraryName	| LibraryStrategy	| LibraryLayout	| Platform	| Model	| ScientificName
-| -------- | ------- |
+Example output file provided in metadata folder:
+
+| Run	| avgLength	| Experiment |	LibraryName	| LibraryStrategy	| LibraryLayout	| Platform	| Model	| ScientificName |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 SRR521286 | 100	SRX159760	GSM961033:_aabys_mRNA	RNA-Seq	PAIRED	ILLUMINA	Illumina_HiSeq_2000	Musca_domestica
 SRR521288	| 100	SRX159762	GSM961035:_ALHF2_mRNA	RNA-Seq	PAIRED	ILLUMINA	Illumina_HiSeq_2000	Musca_domestica
 SRR521289	| 100	SRX159763	GSM961036:_ALHF3_mRNA	RNA-Seq	PAIRED	ILLUMINA	Illumina_HiSeq_2000	Musca_domestica
