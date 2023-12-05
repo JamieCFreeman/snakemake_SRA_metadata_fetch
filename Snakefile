@@ -25,7 +25,7 @@ rule get_sra_table:
 	shell:
 		"""
 		SRA=` echo {output} | sed 's ^.*/  ' | sed 's/_sra.*//' `;
-			esearch -db sra -q ${{SRA}} | efetch -format runinfo > {output}
+			esearch -db sra -query ${{SRA}} | efetch -format runinfo > {output}
 		"""
 
 rule merge_raw:
