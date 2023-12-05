@@ -1,3 +1,0 @@
-WildcardError in line 33 of /local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile:
-No values given for wildcard 'project'.
-  File "/local/workdir/jcf236/snakemake_SRA_metadata_fetch/Snakefile", line 33, in <module>

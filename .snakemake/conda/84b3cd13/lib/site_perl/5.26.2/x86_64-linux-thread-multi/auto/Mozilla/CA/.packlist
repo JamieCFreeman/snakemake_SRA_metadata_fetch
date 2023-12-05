@@ -1,4 +1,0 @@
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/Mozilla/CA.pm relocate_as=../../../../Mozilla/CA.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/Mozilla/CA/cacert.pem relocate_as=../../../../Mozilla/CA/cacert.pem
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/Mozilla/mk-ca-bundle.pl relocate_as=../../../../Mozilla/mk-ca-bundle.pl
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/Mozilla::CA.3 relocate_as=../../../../../../../man/man3/Mozilla::CA.3

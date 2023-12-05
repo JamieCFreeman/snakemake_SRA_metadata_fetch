@@ -1,3 +1,0 @@
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/LWP/MediaTypes.pm relocate_as=../../../../LWP/MediaTypes.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/LWP/media.types relocate_as=../../../../LWP/media.types
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/LWP::MediaTypes.3 relocate_as=../../../../../../../man/man3/LWP::MediaTypes.3

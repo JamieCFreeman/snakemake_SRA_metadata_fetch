@@ -1,6 +1,0 @@
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/HTTP/Cookies.pm relocate_as=../../../../HTTP/Cookies.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/HTTP/Cookies/Microsoft.pm relocate_as=../../../../HTTP/Cookies/Microsoft.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/HTTP/Cookies/Netscape.pm relocate_as=../../../../HTTP/Cookies/Netscape.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/HTTP::Cookies.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies.3
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/HTTP::Cookies::Microsoft.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Microsoft.3
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/HTTP::Cookies::Netscape.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Netscape.3

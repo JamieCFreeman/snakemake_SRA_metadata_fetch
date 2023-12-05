@@ -1,3 +1,0 @@
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Socket.pm relocate_as=../../Socket.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Socket/Socket.so relocate_as=Socket.so
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/Socket.3 relocate_as=../../../../../../man/man3/Socket.3

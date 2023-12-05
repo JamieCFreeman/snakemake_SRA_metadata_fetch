@@ -1,4 +1,0 @@
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/WWW/RobotRules.pm relocate_as=../../../../WWW/RobotRules.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/lib/site_perl/5.26.2/WWW/RobotRules/AnyDBM_File.pm relocate_as=../../../../WWW/RobotRules/AnyDBM_File.pm
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/WWW::RobotRules.3 relocate_as=../../../../../../../man/man3/WWW::RobotRules.3
-/local/workdir/jcf236/snakemake_SRA_metadata_fetch/.snakemake/conda/84b3cd13/man/man3/WWW::RobotRules::AnyDBM_File.3 relocate_as=../../../../../../../man/man3/WWW::RobotRules::AnyDBM_File.3
